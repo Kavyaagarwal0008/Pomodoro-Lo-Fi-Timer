@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro Lo-Fi Timer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1><b>By Kavya Agarwal</b></h1>
+    <div class="container">
+        <h1>Pomodoro Timer ⏳</h1>
+        <div class="timer" id="timer">25:00</div>
+        <div class="buttons">
+            <button onclick="startTimer()">Start</button>
+            <button onclick="pauseTimer()">Pause</button>
+            <button onclick="resetTimer()">Reset</button>
+        </div>
+        <h2>🎧 Lo-Fi Playlist</h2>
+        <select id="songSelector" onchange="changeSong()">
+            <option value="1">Lo-Fi Beat 1</option>
+            <option value="2">Lo-Fi Beat 2</option>
+            <option value="3">Lo-Fi Beat 3</option>
+            <option value="4">Lo-Fi Beat 4</option>
+            <option value="5">Lo-Fi Beat 5</option>
+            <option value="6">Lo-Fi Beat 6</option>
+        </select>
+        <audio id="lofiPlayer" controls loop>
+            <source src="songs/song1.mp3" type="audio/mpeg">
+            <source src="songs/song1.mp3" type="audio/mpeg">
+            <source src="songs/song1.mp3" type="audio/mpeg">
+            <source src="songs/song1.mp3" type="audio/mpeg">
+            <source src="songs/song1.mp3" type="audio/mpeg">
+            <source src="songs/song6.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
