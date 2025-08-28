@@ -109,8 +109,8 @@
             <source src="song2.mp3" type="audio/mpeg">
             <source src="song3.mp3" type="audio/mpeg">
             <source src="song4.mp3" type="audio/mpeg">
-            <source src="song6.mp3" type="audio/mpeg">
             <source src="song5.mp3" type="audio/mpeg">
+            <source src="song6.mp3" type="audio/mpeg">
         </audio>
     </div>
     <script>
